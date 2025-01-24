@@ -3,7 +3,6 @@ import { Geist, Geist_Mono } from 'next/font/google'
 import localFont from 'next/font/local'
 import './globals.css'
 import Navbar from '@/components/ui/navbar'
-import { UserProvider } from '@auth0/nextjs-auth0/client'
 
 // const harmond = localFont({src: 'C:\\data\\work\\js\\nextjs\\noise-generator-1\\public\\fonts\\Harmond-SemBdItaCond.otf'})
 
@@ -34,14 +33,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <UserProvider>
         <body
           className={`${geistSans.variable} ${geistMono.variable} font-lfont antialiased`}
         >
-          <Navbar />
+          {/* <Navbar /> */}
           {children}
         </body>
-      </UserProvider>
     </html>
   )
 }
