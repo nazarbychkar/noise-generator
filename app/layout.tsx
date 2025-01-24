@@ -1,15 +1,15 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
-import localFont from 'next/font/local'
+// import localFont from 'next/font/local'
 import './globals.css'
-import Navbar from '@/components/ui/navbar'
+// import Navbar from '@/components/ui/navbar'
 
 // const harmond = localFont({src: 'C:\\data\\work\\js\\nextjs\\noise-generator-1\\public\\fonts\\Harmond-SemBdItaCond.otf'})
 
-const lfont = localFont({
-  src: '../public/fonts/Harmond-SemBdItaCond.otf',
-  variable: '--font-lfont',
-})
+// const lfont = localFont({
+//   src: '../public/fonts/Harmond-SemBdItaCond.otf',
+//   variable: '--font-lfont',
+// })
 
 const geistSans = Geist({
   variable: '--font-geist-sans',

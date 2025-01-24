@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Waves, Volume2, Headphones, Zap } from 'lucide-react'
 import { useRouter } from 'next/navigation'
-import { redirect } from "next/dist/server/api-utils"
+// import { redirect } from "next/dist/server/api-utils"
 
 export default function NoiseGeneratorLanding() {
   const router = useRouter();
